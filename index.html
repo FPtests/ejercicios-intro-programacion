@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explora el Espacio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Explora el Espacio</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#planetas">Planetas</a></li>
+        <li><a href="#datos">Datos Curiosos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>¿Qué hay ahí afuera?</h2>
+    <p>El universo es enorme, misterioso y hermoso. Descubre los secretos del espacio.</p>
+    <button id="btn-curiosidad">🎲 Dame un dato aleatorio</button>
+    <p id="dato-aleatorio"></p>
+  </section>
+
+  <section id="planetas">
+    <h2>Los Planetas de Nuestro Sistema Solar</h2>
+    <div class="planetas-grid">
+      <div class="planeta" data-planeta="mercurio">
+        <div class="planeta-img mercurio"></div>
+        <h3>Mercurio</h3>
+        <p>El planeta más pequeño y el más cercano al Sol.</p>
+      </div>
+      <div class="planeta" data-planeta="venus">
+        <div class="planeta-img venus"></div>
+        <h3>Venus</h3>
+        <p>El planeta más caliente. Gira al revés!</p>
+      </div>
+      <div class="planeta" data-planeta="tierra">
+        <div class="planeta-img tierra"></div>
+        <h3>Tierra</h3>
+        <p>Nuestro hogar. El único planeta con vida conocida.</p>
+      </div>
+      <div class="planeta" data-planeta="marte">
+        <div class="planeta-img marte"></div>
+        <h3>Marte</h3>
+        <p>El planeta rojo. Tenemos robots explorándolo!</p>
+      </div>
+      <div class="planeta" data-planeta="jupiter">
+        <div class="planeta-img jupiter"></div>
+        <h3>Júpiter</h3>
+        <p>El gigante gaseoso. ¡Cabe 1,300 tierras dentro!</p>
+      </div>
+      <div class="planeta" data-planeta="saturno">
+        <div class="planeta-img saturno"></div>
+        <h3>Saturno</h3>
+        <p>Famoso por sus hermosos anillos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="datos" class="datos-seccion">
+    <h2>¿Sabías que...?</h2>
+    <div class="datos-grid">
+      <div class="dato-card">
+        <span class="dato-icon">⭐</span>
+        <h3>Estrellas</h3>
+        <p>Hay más estrellas en el universo que granos de arena en todas las playas de la Tierra.</p>
+      </div>
+      <div class="dato-card">
+        <span class="dato-icon">🌑</span>
+        <h3>Luna</h3>
+        <p>La Luna se aleja de la Tierra 3.8 cm cada año.</p>
+      </div>
+      <div class="dato-card">
+        <span class="dato-icon">🌌</span>
+        <h3>Vía Láctea</h3>
+        <p>Nuestra galaxia tiene entre 100 y 400 mil millones de estrellas.</p>
+      </div>
+      <div class="dato-card">
+        <span class="dato-icon">⏰</span>
+        <h3>Tiempo</h3>
+        <p>Un día en Venus dura más que un año en Venus!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>✨ Hecho con curiosidad espacial | 2026</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

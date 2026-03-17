@@ -1,0 +1,21 @@
+{
+  "name": "ejercicios-intro-programacion",
+  "version": "1.0.0",
+  "description": "Ejercicios de HTML, CSS y JS para corregir errores",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FPtests/ejercicios-intro-programacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FPtests/ejercicios-intro-programacion/issues"
+  },
+  "homepage": "https://github.com/FPtests/ejercicios-intro-programacion#readme"
+}
